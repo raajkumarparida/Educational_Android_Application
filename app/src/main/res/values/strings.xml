@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Vikash Education</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="default_web_client_id">1092421442145-qvvhvho8fhlmt493ag3784fm1iahg0o0.apps.googleusercontent.com</string>
+
+    <string name="select_class">Select Class</string>
+    <string-array name="class_options">
+        <item>Select Class</item>
+        <item>11th</item>
+        <item>12th</item>
+    </string-array>
+
+    <string name="select_status">Select Class</string>
+    <string-array name="status_option">
+        <item>Select Status</item>
+        <item>Appearing</item>
+        <item>Passed</item>
+    </string-array>
+
+    <string-array name="subject_array">
+        <item>All</item>
+        <item>Odia</item>
+        <item>English</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Zoology</item>
+        <item>Botany</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="who_we_are"><u>Who We Are</u></string>
+    <string name="our_values"><u>Our Values</u></string>
+    <string name="why_choose_us"><u>Why Choose Us</u></string>
+    <string name="founding_story"><u>Founding Story</u></string>
+    <string name="key_milestones"><u>Key Milestones</u></string>
+    <string name="founder_director_s_message"><u>Founder/Director\'s Message</u></string>
+    <string name="core_team_faculty"><u>Core Team &amp; Faculty</u></string>
+    <string name="accolades_and_recognitions"><u>Accolades and Recognitions</u></string>
+    <string name="success_statistics"><u>Success Statistics</u></string>
+    <string name="competitive_exam_preparation"><u>Competitive Exam Preparation</u></string>
+    <string name="extra_facilities"><u>Extra Facilities</u></string>
+    <string name="digital_resources"><u>Digital Resources</u></string>
+    <string name="infrastructure"><u>Infrastructure</u></string>
+    <string name="skill_development_programs"><u>Skill Development Programs</u></string>
+    <string name="vision_for_the_future"><u>Vision for the Future</u></string>
+    <string name="community_initiatives"><u>Community Initiatives</u></string>
+    <string name="contact_information"><u>Contact Information</u></string>
+    <string name="follow_us"><u>Follow Us</u></string>
+    <string name="scholarship_programs"><u>Scholarship Programs</u></string>
+    <string name="academic_coaching"><u>Academic Coaching</u></string>
+
+
+</resources>

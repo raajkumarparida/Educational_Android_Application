@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VikashTutorial"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.gms.auth.api.signinn"
+            android:value="@string/default_web_client_id" />
+
+        <activity
+            android:name=".ViewAllMockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Search.SearchMockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PracticeSectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PYQActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Search.SearchVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mock.MockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pdf.PdfViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Video.VideoViewActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Activity.PdfViewAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerActivity.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerActivity.BookmarksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerActivity.OurResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerActivity.ScholarshipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerActivity.CenterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerActivity.QuickLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerActivity.YourExamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Search.SearchPdfActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Activity.LauncherActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Home.HomeActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

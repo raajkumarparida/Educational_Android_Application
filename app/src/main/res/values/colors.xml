@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#27E9E0E0</color>
+    <color name="light_fern">#E9F5DB</color>
+    <color name="mint_cream">#CFE1B9</color>
+    <color name="sage_green">#B5C99A</color>
+    <color name="olive_green">#97A97C</color>
+    <color name="forest_green">#87986A</color>
+    <color name="deep_moss_green">#718355</color>
+    <color name="selected_answer">#4CAF50</color>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/card_margin_horizontal_big_activity"
+    android:layout_marginTop="@dimen/card_margin_vertical_big_activity"
+    android:layout_marginEnd="@dimen/card_margin_horizontal_big_activity"
+    android:layout_marginBottom="@dimen/card_margin_vertical_big_activity"
+    android:background="#fcfcfc"
+    android:foreground="?attr/selectableItemBackground"
+    card_view:cardBackgroundColor="#F4F4F4"
+    card_view:cardCornerRadius="@dimen/card_recycler_corner_radius"
+    card_view:cardElevation="@dimen/card_recycler_elevation">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/text_margin">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/bookedSubImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:transitionName="shareView"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bookedSubTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/subImg"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="top"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="hello"
+                android:textColor="#536DFE"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                card_view:layout_constraintEnd_toStartOf="@+id/bookmarkNoteBtn"
+                card_view:layout_constraintStart_toEndOf="@+id/subImg"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:background="@android:color/transparent"
+                android:id="@+id/deleteBookmarkBtn"
+                android:src="@drawable/baseline_delete_24"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

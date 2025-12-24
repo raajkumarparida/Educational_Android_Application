@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search.SearchVideoActivity">
+
+    <View
+        android:id="@+id/topCircle"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/topcircle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_marginTop="16sp"
+            android:paddingEnd="16sp"
+            app:navigationIcon="@drawable/ic_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_back"
+                android:elevation="0dp"
+                android:hint="Search Here..."
+                app:iconifiedByDefault="false"
+                app:queryHint="Search Here" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ListView
+            android:id="@+id/suggestionsListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:clipToPadding="false"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="0dp"
+            android:padding="10dp"
+            android:scrollbarFadeDuration="400"
+            android:scrollingCache="true"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/searchRecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/searchView"
+            android:layout_weight="1"
+            android:padding="4dp" />
+
+    </LinearLayout>
+
+    <ImageView
+    android:id="@+id/noListMessage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:src="@drawable/nolistimage"
+    android:visibility="gone" />
+
+</RelativeLayout>

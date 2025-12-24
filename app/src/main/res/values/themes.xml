@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.VikashTutorial" parent="Theme.Material3.DayNight.NoActionBar">
+
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:statusBarColor">@color/olive_green</item>
+        <item name="cardBackgroundColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/light_fern</item>
+        <item name="android:colorBackground">@color/light_fern</item>
+        <item name="android:textColor">@color/deep_moss_green</item>
+        <item name="android:colorPrimary">@color/olive_green</item>
+        <item name="android:colorSecondary" tools:targetApi="n_mr1">@color/forest_green</item>
+
+
+    </style>
+
+    <style name="Theme.VikashTutorial" parent="Base.Theme.VikashTutorial" />
+</resources>

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrawerActivity.AboutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="About Us"
+        app:titleTextColor="@color/white"
+        android:background="@color/deep_moss_green"
+        app:navigationIcon="@drawable/ic_back"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:padding="8dp"
+        android:layout_below="@+id/toolbar"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/who_we_are"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+            android:justificationMode="inter_word"
+            android:layout_margin="12dp"
+            android:layout_gravity="start"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="Vikash Education is a pioneering coaching institute committed to transforming lives through education. Established with a focus on academic excellence, we equip students to succeed in competitive exams and build a brighter future."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/our_values"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="️▪️️Commitment to quality education.\n▪️Empowering students with modern tools and personalized attention.\n▪️Creating a community of lifelong learners."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/why_choose_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️Experienced, industry-leading educators.\n▪️Proven success in +2 &amp; competitive exams like , IIT-JEE, NEET, and others.\n▪️State-of-the-art facilities, including smart classrooms and digital learning resources."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--History and Background-->
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Our Journey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/founding_story"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Vikash Education was established in 2018 by Bikash Sahoo, driven by the vision of bridging the gap between ambition and success for students in rural and urban areas alike."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/key_milestones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️2018: Opened the first branch in Khallikote.\n▪️2023: Achieved a 90% success rate in board and competitive exams.\n▪️2024: Introduced hybrid learning models combining in-person and online classes."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--History and Background-->
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Meet Our Team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/founder_director_s_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="At Vikash Education, we believe every student has the potential to achieve greatness. Our dedicated team ensures each learner gets the tools, guidance, and support they need."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/core_team_faculty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:clipToPadding="false" />
+
+
+            <!--        Achievements & Accolades-->
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Achievements &amp; Accolades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/success_statistics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️Over 3,000 students successfully placed in top colleges and universities.\n▪️Consistently 80%+ pass rate in competitive exams."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--        Facilities-->
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Facilities and Resources"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/infrastructure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️Fully equipped classrooms with projectors and whiteboards.\n▪️Comprehensive library with competitive exam resources."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/digital_resources"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️Access to e-learning platforms and recorded sessions.\n▪️Online mock tests and performance analytics."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/extra_facilities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️Regular workshops, career counseling, and motivational sessions."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Course Offerings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/academic_coaching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️For classes 11th, 12th in CBSE &amp; CHSE."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/competitive_exam_preparation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️JEE, Adance JEE, OUAT, NURSING, NEET etc."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Vision for the Future"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/vision_for_the_future"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️Expansion to more cities and rural areas.\n▪️Collaboration with leading educational platforms.\n▪️Introduction of AI-driven personalized learning systems."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--        Testimonials-->
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Social Responsibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/scholarship_programs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="We believe in giving back to the community. Every year, Vikash Education offers scholarships to underprivileged but deserving students."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/community_initiatives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️️Free workshops for government school students.\n▪️️Partnerships with NGOs for educational outreach programs."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Get in Touch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/contact_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="▪️️Address: Khallikote, Ganjam, Odisha, 761030\n▪️️Phone: +91 9861214496 | +91 7852971781\n▪️️Email: vikashtutorial2018@gmail.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/follow_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_margin="4dp"
+                    android:padding="8dp"
+                    android:background="@drawable/mock_box"
+                    android:src="@drawable/ig"
+                    android:id="@+id/instagramLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageButton
+                    android:layout_margin="4dp"
+                    android:padding="8dp"
+                    android:background="@drawable/mock_box"
+                    android:src="@drawable/fb"
+                    android:id="@+id/facebookLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageButton
+                    android:layout_margin="4dp"
+                    android:padding="8dp"
+                    android:background="@drawable/mock_box"
+                    android:src="@drawable/yt"
+                    android:id="@+id/youtubeLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092421442145",
+    "project_id": "vikashtutorialedu",
+    "storage_bucket": "vikashtutorialedu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092421442145:android:bd426c30409da3530a2820",
+        "android_client_info": {
+          "package_name": "com.sansan.vikashtutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBubqSHoak18hME9-u9gzhLmx0htBP-yyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

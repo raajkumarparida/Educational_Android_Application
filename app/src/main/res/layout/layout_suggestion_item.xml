@@ -1,0 +1,21 @@
+<!-- res/layout/suggestion_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/suggestion_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/searchiconsvg" />
+
+    <TextView
+        android:id="@+id/suggestion_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:text="Suggestion Title" />
+</LinearLayout>

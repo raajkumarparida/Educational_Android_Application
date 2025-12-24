@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/indicator_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Class"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:paddingBottom="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnClass11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class 11th"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnClass12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class 12th"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

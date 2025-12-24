@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FDFDFD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrawerActivity.CenterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/deep_moss_green"
+        app:navigationIcon="@drawable/ic_back"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbarText"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Vikash Tutorial, Khallikote, Ganjam, Odisha, 761030"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_margin="12dp"
+                android:layout_gravity="start"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Vikash Education is a premier coaching center dedicated to providing quality education and training to students. With a focus on academic excellence and skill development, the center offers a range of programs to help students excel in their studies and competitive exams. The experienced faculty and personalized approach ensure that each student receives the guidance they need to succeed. At Vikash Education, we believe in nurturing talent, building confidence, and preparing students for a bright future."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="First Year Gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/firstYearSlider"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:padding="8dp"
+                android:clipToPadding="false"
+                app:iss_corner_radius="32"
+                app:iss_auto_cycle="true"
+                app:iss_delay="1500"
+                app:iss_period="1500"
+                app:iss_title_background="@color/white"
+                app:layout_constraintDimensionRatio="16:9">
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Second Year Gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/secondYearSlider"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:padding="8dp"
+                android:clipToPadding="false"
+                app:iss_corner_radius="32"
+                app:iss_auto_cycle="true"
+                app:iss_delay="1500"
+                app:iss_period="1500"
+                app:iss_title_background="@color/white"
+                app:layout_constraintDimensionRatio="16:9">
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Library Gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/librarySlider"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:padding="8dp"
+                android:clipToPadding="false"
+                app:iss_corner_radius="32"
+                app:iss_auto_cycle="true"
+                app:iss_delay="1500"
+                app:iss_period="1500"
+                app:iss_title_background="@color/white"
+                app:layout_constraintDimensionRatio="16:9">
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Celebration Gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/functionSlider"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:padding="8dp"
+                android:clipToPadding="false"
+                app:iss_corner_radius="32"
+                app:iss_auto_cycle="true"
+                app:iss_delay="1500"
+                app:iss_period="1500"
+                app:iss_title_background="@color/white"
+                app:layout_constraintDimensionRatio="16:9">
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <TextView
+                android:layout_margin="4dp"
+                android:elevation="8dp"
+                android:background="@drawable/mock_box"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Environment Gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/environmentSlider"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:padding="8dp"
+                android:clipToPadding="false"
+                app:iss_corner_radius="32"
+                app:iss_auto_cycle="true"
+                app:iss_delay="1500"
+                app:iss_period="1500"
+                app:iss_title_background="@color/white"
+                app:layout_constraintDimensionRatio="16:9">
+            </com.denzcoskun.imageslider.ImageSlider>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="32dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/click"
+        android:textSize="38sp"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center"
+        android:text="📍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:src="@drawable/locate"
+        android:id="@+id/locate"
+        app:tint="@color/white"
+        app:elevation="0dp"
+        android:backgroundTint="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</RelativeLayout>

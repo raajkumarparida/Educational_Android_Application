@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DrawerActivity.ScholarshipActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/deep_moss_green"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Scholarship"
+            app:titleTextColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/topLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="4dp"
+                android:rotation="-90"
+                android:src="@drawable/i"
+                app:tint="@color/red" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="1"
+                android:padding="4dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Vikash Education Offers Scholarships"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="12dp"
+                android:justificationMode="inter_word"
+                android:lineHeight="20dp"
+                android:text="Vikash Education offers a unique opportunity to students based on their academic performance, providing financial support for those who have excelled in their previous exams. Students who have achieved 90% or higher in their 10th grade can avail themselves of free tuition for class 11, helping them prepare for the upcoming challenges with professional guidance. For students entering class 12, the scheme offers 5,000 INR for those who have scored 80% or higher in their 12th-grade exams, as a way to support their final-year preparations. Additionally, students who have secured 85% or above in their class 12 boards can receive 10,000 INR to further ease their academic journey. This initiative encourages students to perform well academically while providing them with the necessary resources to succeed in their studies."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/eligibilityTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="16dp"
+                android:text="▪️️Free Tuition for Class 11: Students with 90% or higher in 10th grade can avail free tuition for class 11.\n\n▪️️Financial Reward for Class 12 Board Exams: Students achieving 80% or higher in class 12 boards can receive 10,000 INR.\n\n▪️️Eligibility Check: Students can easily check their eligibility by selecting their class and entering their marks."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:text="Thank You" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

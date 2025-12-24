@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PdfViewAllActivity">
+
+    <View
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/topCircle"
+        android:background="@drawable/topcircle"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"/>
+
+    <androidx.appcompat.widget.Toolbar
+        app:titleTextColor="@color/white"
+        app:navigationIcon="@drawable/ic_back"
+        android:background="@color/deep_moss_green"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.search.SearchBar
+        android:layout_below="@id/toolbar"
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Here..." />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="4dp"
+        android:layout_below="@+id/searchBar"
+        android:id="@+id/viewAllRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

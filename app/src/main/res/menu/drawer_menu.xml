@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_your_exam"
+            android:title="Your Exam"
+            android:icon="@drawable/examsvg" />
+
+        <item
+            android:id="@+id/nav_quick_learning"
+            android:title="Quick Learning"
+            android:icon="@drawable/learning" />
+
+        <item
+            android:id="@+id/nav_my_downloads"
+            android:title="My Bookmarks"
+            android:icon="@drawable/download" />
+
+        <item
+            android:id="@+id/nav_scholarship"
+            android:title="Scholarship"
+            android:icon="@drawable/scholarship" />
+
+        <item
+            android:id="@+id/nav_out_result"
+            android:title="Our Result"
+            android:icon="@drawable/result" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="About Us"
+            android:icon="@drawable/aboutus" />
+
+        <item
+            android:id="@+id/nav_vt_center"
+            android:title="VT Center"
+            android:icon="@drawable/location" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"
+            android:iconTint="@android:color/white" />
+
+        <item
+            android:id="@+id/nav_deleteAccount"
+            android:title="Delete Account"
+            android:icon="@drawable/baseline_auto_delete_24"
+            android:iconTint="@android:color/white" />
+
+    </group>
+
+</menu>

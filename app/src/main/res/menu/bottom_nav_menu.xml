@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/mynaui_home"/>
+
+    <item
+        android:id="@+id/nav_course"
+        android:title="Lectures"
+        android:icon="@drawable/hugeicons_course"/>
+
+    <item
+        android:id="@+id/nav_mock"
+        android:title="Mock"
+        android:icon="@drawable/exam"/>
+
+    <item
+        android:id="@+id/nav_library"
+        android:title="Library"
+        android:icon="@drawable/librarysvg"/>
+
+</menu>
