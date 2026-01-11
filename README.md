@@ -53,37 +53,27 @@ Vikash Education is a full-featured Android-based educational application design
 
 | Screen 1 | Screen 2 | Screen 3 |
 |---------|----------|----------|
-| ![1](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/1.jpg) | 
-  ![2](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/2.jpg) | 
-  ![3](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/3.jpg) |
+| ![1](screenshots/1.jpeg) | ![2](screenshots/2.jpeg) | ![3](screenshots/3.jpeg) |
 
 | Screen 4 | Screen 5 | Screen 6 |
 |---------|----------|----------|
-| ![4](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/4.jpg) | 
-  ![5](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/5.jpg) | 
-  ![6](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/6.jpg) |
+| ![4](screenshots/4.jpeg) | ![5](screenshots/5.jpeg) | ![6](screenshots/6.jpeg) |
 
 | Screen 7 | Screen 8 | Screen 9 |
 |---------|----------|----------|
-| ![7](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/7.jpg) | 
-  ![8](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/8.jpg) | 
-  ![9](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/9.jpg) |
+| ![7](screenshots/7.jpeg) | ![8](screenshots/8.jpeg) | ![9](screenshots/9.jpeg) |
 
 | Screen 10 | Screen 11 | Screen 12 |
 |----------|-----------|-----------|
-| ![10](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/10.jpg) | 
-  ![11](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/11.jpg) | 
-  ![12](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/12.jpg) |
+| ![10](screenshots/10.jpeg) | ![11](screenshots/11.jpeg) | ![12](screenshots/12.jpeg) |
 
 | Screen 13 | Screen 14 | Screen 15 |
 |----------|-----------|-----------|
-| ![13](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/13.jpg) | 
-  ![14](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/14.jpg) | 
-  ![15](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/15.jpg) |
+| ![13](screenshots/13.jpeg) | ![14](screenshots/14.jpeg) | ![15](screenshots/15.jpeg) |
 
 | Screen 16 |
 |-----------|
-| ![16](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/16.jpg) |
+| ![16](screenshots/16.jpeg) |
 
 ---
 
@@ -95,4 +85,5 @@ Download the APK from here:
 ## 📄 License
 
 This project is developed for educational and learning purposes.
+
 
