@@ -88,7 +88,7 @@ public class CenterActivity extends AppCompatActivity {
         FloatingActionButton fabOpenMap = findViewById(R.id.locate);
 
         fabOpenMap.setOnClickListener(view -> {
-            String locationUrl = "https://www.google.com/maps/place/Vikash+Tutorial/@19.605517,85.0703167,122m/data=!3m1!1e3!4m6!3m5!1s0x3a1805a4aa2ce0f3:0x73fe606f94918a8c!8m2!3d19.6055823!4d85.0743532!16s%2Fg%2F11g4cym8xj?entry=ttu&g_ep=EgoyMDI0MTExNy4wIKXMDSoASAFQAw%3D%3D";
+            String locationUrl = "https://www.google.com/maps/place/Khallikot,+Odisha/@19.6074691,85.0773393,1735m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3a180499b7fc65f3:0xc67b64a82a18ca5e!8m2!3d19.6072997!4d85.0765906!16s%2Fg%2F11c5395mv4?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D";
 
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(locationUrl));
             intent.setPackage("com.google.android.apps.maps");
@@ -104,7 +104,7 @@ public class CenterActivity extends AppCompatActivity {
 
     private void fetchFirstYearSlidingImagesFromFirestore() {
         progressDialog.show();
-        db.collection("SLIDINGIMAGES")
+        db.collection("SLIDINGIMAGESFIRSTYEAR")
                 .get()
                 .addOnCompleteListener(task -> {
                     progressDialog.dismiss();
@@ -132,7 +132,7 @@ public class CenterActivity extends AppCompatActivity {
 
         private void fetchSecondYearSlidingImagesFromFirestore() {
             progressDialog.show();
-            db.collection("SLIDINGIMAGES")
+            db.collection("SLIDINGIMAGESECONDYEAR")
                     .get()
                     .addOnCompleteListener(task -> {
                         progressDialog.dismiss();
@@ -159,7 +159,7 @@ public class CenterActivity extends AppCompatActivity {
         }
             private void fetchLibrarySlidingImagesFromFirestore() {
                 progressDialog.show();
-                db.collection("SLIDINGIMAGES")
+                db.collection("SLIDINGIMAGELIBRARY")
                         .get()
                         .addOnCompleteListener(task -> {
                             progressDialog.dismiss();
@@ -187,7 +187,7 @@ public class CenterActivity extends AppCompatActivity {
 
                 private void fetchFunctionSlidingImagesFromFirestore () {
                     progressDialog.show();
-                    db.collection("SLIDINGIMAGES")
+                    db.collection("SLIDINGIMAGECELEBRATION")
                             .get()
                             .addOnCompleteListener(task -> {
                                 progressDialog.dismiss();
@@ -215,7 +215,7 @@ public class CenterActivity extends AppCompatActivity {
 
                     private void fetchEnvironmentSlidingImagesFromFirestore () {
                         progressDialog.show();
-                        db.collection("SLIDINGIMAGES")
+                        db.collection("SLIDINGIMAGEENVIRONMENT")
                                 .get()
                                 .addOnCompleteListener(task -> {
                                     progressDialog.dismiss();

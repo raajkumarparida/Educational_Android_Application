@@ -811,13 +811,13 @@ public class HomeFragment extends Fragment {
         navRadioGroup = headerView.findViewById(R.id.radioGroupClass);
         setupClassSelection(navRadioGroup);
         setupTheme();
-        TextView developedByTextView = navigationView.findViewById(R.id.tv_developed_by);
-        addTextWithImage(developedByTextView);
-        developedByTextView.setOnClickListener(view1 -> {
-            Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://www.instagram.com/sansas.io/"));
-            startActivity(intent);
-        });
+//        TextView developedByTextView = navigationView.findViewById(R.id.tv_developed_by);
+//        addTextWithImage(developedByTextView);
+//        developedByTextView.setOnClickListener(view1 -> {
+//            Intent intent = new Intent(Intent.ACTION_VIEW);
+//            intent.setData(Uri.parse("https://www.instagram.com/sansas.io/"));
+//            startActivity(intent);
+//        });
 
         navHeaderEditBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1049,22 +1049,42 @@ public class HomeFragment extends Fragment {
 //        fragmentTransaction.commit();
 //    }
 
+//    private void restartHomeFragment(DrawerLayout drawerLayout) {
+//        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+//            drawerLayout.closeDrawer(GravityCompat.START); // ✅ Close the drawer
+//            drawerLayout.postDelayed(() -> restartFragment(), 300); // ✅ Delay restart for smooth transition
+//        } else {
+//            restartFragment(); // ✅ If already closed, restart immediately
+//        }
+//    }
+
     private void restartHomeFragment(DrawerLayout drawerLayout) {
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
-            drawerLayout.closeDrawer(GravityCompat.START); // ✅ Close the drawer
-            drawerLayout.postDelayed(() -> restartFragment(), 300); // ✅ Delay restart for smooth transition
+            drawerLayout.closeDrawer(GravityCompat.START);
+            drawerLayout.postDelayed(this::restartFragment, 300);
         } else {
-            restartFragment(); // ✅ If already closed, restart immediately
+            restartFragment();
         }
     }
 
+
     // ✅ Extracted method for fragment restart
+//    private void restartFragment() {
+//        FragmentTransaction fragmentTransaction = getParentFragmentManager().beginTransaction();
+//        fragmentTransaction.replace(R.id.fragment_container, new HomeFragment());
+//        fragmentTransaction.setReorderingAllowed(true);
+//        fragmentTransaction.commit();
+//    }
+
     private void restartFragment() {
-        FragmentTransaction fragmentTransaction = getParentFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.fragment_container, new HomeFragment());
-        fragmentTransaction.setReorderingAllowed(true);
-        fragmentTransaction.commit();
+        FragmentTransaction transaction = requireActivity()
+                .getSupportFragmentManager()
+                .beginTransaction();
+
+        transaction.replace(R.id.fragment_container, new HomeFragment());
+        transaction.commitAllowingStateLoss();
     }
+
 
 
 

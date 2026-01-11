@@ -52,7 +52,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://www.instagram.com/vikash_tutorial_2018/"));
+                intent.setData(Uri.parse("https://www.instagram.com"));
                 startActivity(intent);
             }
         });
@@ -62,7 +62,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://www.facebook.com/vikash.shahu.121/"));
+                intent.setData(Uri.parse("https://www.facebook.com"));
                 startActivity(intent);
             }
         });
@@ -72,7 +72,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://youtube.com/@vikashtutorial2k18?si=8iejun5S5w7IaLga"));
+                intent.setData(Uri.parse("https://youtube.com"));
                 startActivity(intent);
             }
         });
