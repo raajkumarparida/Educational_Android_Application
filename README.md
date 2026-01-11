@@ -51,23 +51,39 @@ Vikash Education is a full-featured Android-based educational application design
 
 ## 📸 Screenshots
 
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/pnses3fur9keqza/1.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/cjseph89ii144os/2.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/gw5xnw4e0yodgie/3.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/221l4lgvwznoauq/4.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/ifxv926d6s6t592/5.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/otnr6q35g369ivm/6.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/32w8c4o0mhzxnmi/7.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/iicnddmhkquy3dp/8.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/xtpiaqcejgpq2q0/9.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/4imbmwxxjjwlc14/10.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/8tyufm71vkcwvsr/11.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/osn1loq1e11270u/12.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/dibs09g4dd4q6r7/13.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/typgde99q5rbxye/14.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/qjsl58gyf9iu3he/15.jpeg/file))
-![Quiz Screen]([https://drive.google.com/uc?export=view&id=FILE_ID](https://www.mediafire.com/view/5h3foj09ianrwe9/16.jpeg/file))
+| Screen 1 | Screen 2 | Screen 3 |
+|---------|----------|----------|
+| ![1](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/1.jpg) | 
+  ![2](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/2.jpg) | 
+  ![3](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/3.jpg) |
 
+| Screen 4 | Screen 5 | Screen 6 |
+|---------|----------|----------|
+| ![4](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/4.jpg) | 
+  ![5](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/5.jpg) | 
+  ![6](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/6.jpg) |
+
+| Screen 7 | Screen 8 | Screen 9 |
+|---------|----------|----------|
+| ![7](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/7.jpg) | 
+  ![8](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/8.jpg) | 
+  ![9](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/9.jpg) |
+
+| Screen 10 | Screen 11 | Screen 12 |
+|----------|-----------|-----------|
+| ![10](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/10.jpg) | 
+  ![11](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/11.jpg) | 
+  ![12](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/12.jpg) |
+
+| Screen 13 | Screen 14 | Screen 15 |
+|----------|-----------|-----------|
+| ![13](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/13.jpg) | 
+  ![14](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/14.jpg) | 
+  ![15](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/15.jpg) |
+
+| Screen 16 |
+|-----------|
+| ![16](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/screenshots/16.jpg) |
 
 ---
 
@@ -79,3 +95,4 @@ Download the APK from here:
 ## 📄 License
 
 This project is developed for educational and learning purposes.
+
