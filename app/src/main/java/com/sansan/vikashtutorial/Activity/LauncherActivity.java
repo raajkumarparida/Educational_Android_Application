@@ -84,7 +84,7 @@ public class LauncherActivity extends AppCompatActivity {
     }
 
     private void addTextWithImage(TextView textView) {
-        String text = "Developed by \nsansas.io | ";
+        String text = "Developed by \nRaj Kumar Parida | ";
         SpannableString spannable = new SpannableString(text + " ");
 
         // Using compatibility check for drawable resource

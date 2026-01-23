@@ -66,8 +66,8 @@ public class PdfViewActivity extends AppCompatActivity {
             getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back);
         }
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
-                WindowManager.LayoutParams.FLAG_SECURE);
+//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
+//                WindowManager.LayoutParams.FLAG_SECURE);
 
         bookmarkButton = findViewById(R.id.bookmarkNoteBtn);
         noPdfImg = findViewById(R.id.noPdfImage);
